@@ -1,0 +1,1 @@
+select * from sp_iqwho()

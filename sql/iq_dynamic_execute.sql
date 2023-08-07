@@ -1,5 +1,5 @@
 /* Example proc that create a temp table with a dynamic value */
-create or replace proc dbo.sp_bis_dba_dynamic_execute (
+create or replace proc dbo.sp_dba_dynamic_execute (
     @num_value int
 )
 as
@@ -9,4 +9,4 @@ begin
     -- Return the result
     select column_1 from #temp
 end;
-exec dbo.sp_bis_dba_dynamic_execute 123
+exec dbo.sp_dba_dynamic_execute 123

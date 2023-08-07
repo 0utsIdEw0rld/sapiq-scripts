@@ -1,0 +1,1 @@
+-- Use the sp_iqsysmon Procedure. There is a specific section that treats it: "Large Memory Allocator (LMA) Statistics"
